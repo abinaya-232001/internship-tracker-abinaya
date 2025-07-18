@@ -4,9 +4,8 @@ import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from datetime import datetime
 
-import spacy
+# ✅ Load spaCy model (already installed via requirements.txt)
 nlp = spacy.load("en_core_web_sm")
-
 
 # Page config & styling
 st.set_page_config(page_title="Internship Tracker", layout="wide")
@@ -50,7 +49,7 @@ col1.metric("Total Applications", total_apps)
 col2.metric("Interviews", interviews)
 col3.metric("Offers", offers)
 
-# 📋 Tracker Section
+# 📋 Internship Tracker
 if page == "📋 Tracker":
     st.markdown('<div class="section-header">📋 Internship Tracker</div>', unsafe_allow_html=True)
 
@@ -96,7 +95,7 @@ if page == "📋 Tracker":
     else:
         st.info("📭 No applications yet. Add one above to get started!")
 
-# 🧠 Resume Analyzer Section
+# 🧠 Resume Analyzer
 elif page == "🧠 Analyzer":
     st.markdown('<div class="section-header">🧠 Resume Analyzer</div>', unsafe_allow_html=True)
 
@@ -130,7 +129,7 @@ elif page == "🧠 Analyzer":
         else:
             st.warning("📌 Paste both resume and job description to analyze.")
 
-# 📤 File Upload Section
+# 📤 File Upload
 elif page == "📤 Upload":
     st.markdown('<div class="section-header">📤 Upload Resume & JD (.txt files)</div>', unsafe_allow_html=True)
 
