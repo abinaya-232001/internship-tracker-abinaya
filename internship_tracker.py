@@ -4,7 +4,7 @@ import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from datetime import datetime
 
-# ✅ Load spaCy model (already installed via requirements.txt)
+# ✅ Load spaCy model installed via requirements.txt
 nlp = spacy.load("en_core_web_sm")
 
 # Page config & styling
