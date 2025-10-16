@@ -1,234 +1,134 @@
-🚀 Internship Tracker by Abinaya 👩‍💻
+🚀 Internship Tracker - Abinaya Rajasekara (Data/AI Enthusiast)
 
-A smart and stylish way to track your internship journey, analyze your resume, and boost your job readiness!
 
-✨ Overview
 
-Internship Tracker by Abinaya is an interactive web app built with Streamlit that helps students and job seekers:
 
-Organize internship applications
 
-Track deadlines and progress visually
 
-Analyze resume–job description match using NLP and TF-IDF
 
-Get personalized career tips to improve chances of success
 
-🧭 Key Features
-📋 Internship Tracker
 
-✅ Add and manage internship applications
-✅ Filter by status (Applied, Interviewing, Accepted, etc.)
-✅ Visual charts for application insights
-✅ Upcoming deadlines view
-✅ Download data as CSV
 
-🧠 Resume Analyzer
 
-🔹 Paste your Resume and Job Description
-🔹 Get an instant Match Score using TF-IDF similarity
-🔹 Extract top keywords with spaCy NLP
-🔹 Intelligent feedback on your resume–JD alignment
 
-📤 Upload Mode
 
-📎 Upload .txt files for both resume and job description
-📊 Preview content and analyze instantly
 
-💡 Career Tips
+A smart and interactive Streamlit web app to help you manage internship applications, analyze your resume against job descriptions using NLP & TF-IDF, and gain insights into your job readiness — all from one dashboard.
 
-Practical suggestions to strengthen your career profile:
-💻 Build a GitHub portfolio
-💼 Keep your LinkedIn updated
-🧠 Add README files to projects
-🎓 Upskill through relevant online courses
+<p align="center"> <img src="assets/internship_dashboard_preview.webp" width="720" alt="Internship Tracker Dashboard Preview"/> </p>
+✨ Features
 
-🧱 Tech Stack
-Category	Technology
-Frontend / UI	Streamlit
-Data Processing	Pandas
-Machine Learning	Scikit-learn (TF-IDF)
-NLP Engine	spaCy (en_core_web_sm)
-Visualization	Streamlit Charts
-Environment	Python 3.11 with Dev Container support
-🗂️ Project Highlights
+📋 Add, view, and filter internship applications
 
-📁 Pages Included:
+📅 Automatically highlight upcoming deadlines
 
-Tracker: Add, filter, and visualize your internship data
+📊 Visualize progress with status charts
 
-Analyzer: Compare resume with job descriptions
+🧠 Analyze resume–job description match using TF-IDF
 
-Upload: Analyze uploaded resume and JD files
+📤 Upload .txt files for resume and JD comparison
 
-Tips: Helpful advice for career enhancement
+💾 Download internship data as CSV
 
-📊 Metrics Dashboard:
-Displays:
+💡 Career tips to strengthen your professional profile
 
-Total Applications
+🛠️ Tools & Technologies
 
-Interviews
+Python 3.11
 
-Offers
+Streamlit — Interactive UI Framework
 
-🧠 How It Works
+Pandas — Data Handling & Management
 
-Enter or upload your internship application data
+Scikit-learn — TF-IDF Vectorization
 
-Paste or upload your resume and job description
+spaCy — Keyword Extraction (NLP)
 
-The app computes a TF-IDF similarity score
+Matplotlib — Chart Visualization
 
-Extracts key nouns and phrases using spaCy NLP
+VS Code Dev Container — for isolated environment setup
 
-Displays your match score and tailored suggestions
+🧩 How It Works
 
-🪴 Future Improvements
+Add your internships (Company, Role, Deadline, Status).
 
-Add database integration for persistent storage
+Paste or upload your resume and job description.
 
-Resume PDF parsing support
+The app computes a TF-IDF similarity score.
 
-Automated email reminders for deadlines
+spaCy extracts keywords to show strengths & gaps.
 
-Smart AI-powered resume enhancement suggestions
+View results, insights, and download your data instantly.
 
-👩‍💻 Author
+📁 Folder Structure
+internship-tracker-abinaya/
+│
+├── internship_tracker.py        # Main Streamlit App
+├── requirements.txt             # Dependencies
+├── .devcontainer/
+│   └── devcontainer.json        # VS Code container setup
+├── assets/                      # (Optional) images/icons
+└── README.md                    # Documentation
 
-Abinaya
-💡 Aspiring Data & AI Professional
-📍 Passionate about technology, career growth, and productivity tools
-
-🌐 LinkedIn
- • 🐙 GitHub
-
-📜 License
-
-Licensed under the MIT License — you’re free to use and modify with credit.
-
-🌟 Support
-
-If you like this project, please star this repository ⭐
-Your support keeps open-source projects like this alive and growing!
-
-Would you like me to make it even more visually engaging (e.g., add emoji dividers, colorful headers, or a preview image mockup at the top)? I can make it look like a polished landing page-style README.
-
-You said:
-internship-tracker-abinaya
-/
-README.md
-in
-main
-ChatGPT said:
-
-Got it ✅ — here’s a ready-to-use README.md file for your GitHub repository internship-tracker-abinaya (main branch).
-It’s attractive, concise, and formatted beautifully for GitHub display — no code blocks, no terminal commands, just a clean, professional presentation.
-
-🚀 Internship Tracker by Abinaya 👩‍💻
-
-A sleek and intelligent Streamlit web app to manage internship applications, analyze resume–job description matches using AI & NLP, and supercharge your internship success journey.
-
-🌈 Overview
-
-Internship Tracker by Abinaya helps students and professionals stay organized during their internship hunt.
-You can easily track applications, check upcoming deadlines, and even analyze how well your resume matches a specific job description — all from one dashboard.
-
-🧭 Key Features
-📋 Internship Tracker
-
-Add and manage internship applications effortlessly
-
-Filter applications by status (Applied, Interviewing, Accepted, etc.)
-
-Visualize progress using built-in charts
-
-View upcoming deadlines in a neat table
-
-Export all application data as a CSV
-
-🧠 Resume Analyzer
-
-Paste your resume and job description text directly
-
-Get a Match Score powered by TF-IDF similarity
-
-Extract top keywords from your resume using spaCy NLP
-
-Receive smart recommendations:
-
-✅ Strong Match — You’re ready to apply
-
-🧐 Medium Match — Optimize your resume
-
-⚠️ Weak Match — Improve keyword alignment
-
-📤 Upload Mode
-
-Upload .txt files for your resume and job description
-
-Preview both before analyzing
-
-Get instant match feedback and insights
-
-💡 Career Tips
-
-Helpful suggestions to boost your internship success:
-💻 Build and maintain your GitHub portfolio
-💼 Keep your LinkedIn profile updated
-🧠 Add project READMEs to highlight your impact
-🎓 Take skill-based online courses regularly
-
-🧱 Tech Stack
-Category	Technology
-Frontend / UI	Streamlit
-Data Handling	Pandas
-Machine Learning	Scikit-learn (TF-IDF)
-NLP Engine	spaCy (en_core_web_sm)
-Visualization	Streamlit Charts
-Environment	Python 3.11 + VS Code Dev Container
-🗂️ Application Pages
-
-1. Tracker Page – Add, filter, and visualize applications
-2. Analyzer Page – Paste and analyze resume + JD match
-3. Upload Page – Analyze uploaded .txt files
-4. Tips Section – Practical career development advice
-
+🧠 Resume Analyzer Logic
+Step	Functionality	Description
+1️⃣	TF-IDF Similarity	Compares resume & JD textual overlap
+2️⃣	Keyword Extraction	Identifies strong nouns & skills
+3️⃣	Match Score	Displays similarity score with insights
+4️⃣	Feedback	Recommends how to improve alignment
 📊 Dashboard Insights
 
-The app automatically displays:
-📈 Total Applications
-📞 Interviews
-🏆 Offers
+📝 Applications Submitted
+
+📞 Interviews in Progress
+
+🏆 Offers Received
+
 ⏰ Upcoming Deadlines
 
-Everything updates dynamically as you add new internships!
+Everything updates dynamically as you track your journey!
 
-🪴 Future Enhancements
+🧠 Common Issues & Fixes
+<details> <summary>Click to expand</summary>
+Step	Issue	Cause	Solution
+1	spaCy model missing	Model not downloaded	Run: python -m spacy download en_core_web_sm
+2	TF-IDF error	Missing text input	Provide both resume & JD text
+3	Streamlit crash	Incorrect form indentation	Check block structure
+4	Chart empty	No applications added	Add entries before viewing chart
+5	CSV not downloading	Session cache reset	Restart Streamlit session
+</details>
+📈 Future Enhancements
+<details> <summary>Click to expand</summary>
 
-Database integration for persistent storage
+💾 Persistent storage via SQLite or Firebase
 
-Resume PDF parsing and keyword highlighting
+📧 Email reminders for upcoming deadlines
 
-Automated email reminders for approaching deadlines
+📄 Resume PDF parsing & keyword highlighting
 
-AI-driven resume optimization feedback
+🤖 AI-based resume enhancement feedback
 
+☁️ Cloud deployment (Streamlit Cloud / Hugging Face Spaces)
+
+</details>
 👩‍💻 Author
 
-Abinaya
-💡 Aspiring Data & AI Professional
-📍 Passionate about technology, learning, and personal growth
+Abinaya Rajasekara
+🎓 Data & AI Enthusiast | 💼 Internship Project Developer
+🌱 Passionate about NLP, ML, and practical AI tools for students
 
-🌐 LinkedIn
+🔗 LinkedIn
 
 🐙 GitHub
 
 📜 License
 
-This project is licensed under the MIT License — feel free to use, modify, and share with credit.
+This project is licensed under the MIT License.
+Feel free to use, modify, and share it — with proper credit.
 
 ⭐ Support
 
-If you found this project helpful, please star ⭐ the repository and share it with your friends!
-Your support motivates continuous improvement and new features. 💙
+If you like this project, please ⭐ star the repository →
+github.com/abinaya-232001/internship-tracker-abinaya
+
+Your support inspires more open-source projects like this 💙
